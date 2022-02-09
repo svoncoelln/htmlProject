@@ -1,3 +1,24 @@
 body {
     font-family: Calibri;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+ol {
+    text-align: center;
+}
+
+#wave1, #wave2, #wave3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.all {
+    max-width: 75%;
+    margin: auto;
 }
