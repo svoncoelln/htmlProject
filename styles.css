@@ -1,24 +1,53 @@
 body {
     font-family: Calibri;
     text-align: center;
-}
-
-li {
-    display: inline;
+    background-image: url("https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/bbbf2a17-987c-4fe6-b190-ac8fe0e235e9");
 }
 
 ol {
-    text-align: center;
+    display: table;
+    margin: auto;
 }
 
-#wave1, #wave2, #wave3 {
+ul {
+    list-style-type: none;
+}
+
+#wave1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-around;
+}
+
+#wave2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#wave3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#wave1 h3, #wave2 h3, #wave3 h3 {
+    display: block;
+    flex-shrink: 0;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+}
+
+#navbar li {
+    display: inline-block;
 }
 
 .all {
-    max-width: 75%;
-    margin: auto;
+    max-width: 65%;
+    margin: -.5% auto;
+    background-color: rgb(208, 167, 79);
+    padding: 1% 3% 1% 3%;
 }
