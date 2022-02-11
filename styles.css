@@ -26,6 +26,14 @@ ul {
     padding: 10px;
 }
 
+#navbar a {
+    color: white;
+}
+
+#navbar li a:hover {
+    background-color: rgb(146, 118, 58);
+}
+
 .all {
     max-width: 65%;
     margin: auto;
