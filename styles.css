@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: starWarsTitle;
-    src: url("./font/starjedi-webfont.woff");
+    src: url("./starjedi/Starjedi.ttf");
 }
 
 .title {
