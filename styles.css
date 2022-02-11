@@ -1,3 +1,38 @@
 body {
     font-family: Calibri;
+    text-align: center;
+    background-image: url("https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/bbbf2a17-987c-4fe6-b190-ac8fe0e235e9");
+    color: white;
+}
+
+ol {
+    display: table;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(208, 167, 79, .9);
+    margin: 0 -4.7% 0 -4.7%;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.all {
+    max-width: 65%;
+    margin: auto;
+    border-color: rgb(208, 167, 79);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 1% 3% 1% 3%;
+    background-color: rgba(255, 255, 255, .1);
 }
