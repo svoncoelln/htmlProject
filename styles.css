@@ -3,6 +3,16 @@ body {
     text-align: center;
     background-image: url("https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/bbbf2a17-987c-4fe6-b190-ac8fe0e235e9");
     color: white;
+    font-size: large;
+}
+
+@font-face {
+    font-family: starWarsTitle;
+    src: url("./starjedi/Starjedi.ttf");
+}
+
+.title {
+    font-family: starWarsTitle;
 }
 
 ol {
@@ -14,24 +24,40 @@ ul {
     list-style-type: none;
 }
 
+a {
+    color: lightblue;
+}
+
+a:visited {
+    color: thistle;
+}
+
 #navbar {
     position: sticky;
     top: 0;
-    background-color: rgba(208, 167, 79, .9);
+    background-color: rgb(208, 167, 79);
     margin: 0 -4.7% 0 -4.7%;
 }
 
 #navbar li {
     display: inline-block;
-    padding: 10px;
 }
 
-#navbar a {
+#navbar a:link, #navbar a:visited {
     color: white;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+
 }
 
-#navbar li a:hover {
+#navbar li a:hover{
     background-color: rgb(146, 118, 58);
+}
+
+img {
+    height: 300px;
+    width: auto;
 }
 
 .all {
@@ -41,6 +67,6 @@ ul {
     border-width: 5px;
     border-style: solid;
     border-radius: 50px;
-    padding: 1% 3% 1% 3%;
+    padding: .25% 3% 1% 3%;
     background-color: rgba(255, 255, 255, .1);
 }
