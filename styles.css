@@ -6,6 +6,14 @@ body {
     font-size: large;
 }
 
+@font-face {
+    font-family: starWarsTitle;
+    src: url("./starjedi/Starjedi.ttf");
+}
+
+.title {
+    font-family: starWarsTitle;
+}
 
 ol {
     display: table;
