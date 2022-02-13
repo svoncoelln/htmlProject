@@ -17,13 +17,15 @@ body {
     bottom: 8px;
 }
 
-ol {
-    display: table;
-    margin: auto;
-}
 
 ul {
     list-style-type: none;
+}
+
+
+ol {
+    display: table;
+    margin: auto;
 }
 
 a {
